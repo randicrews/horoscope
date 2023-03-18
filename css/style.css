@@ -34,6 +34,9 @@ div{
   background-size: 100%;
   padding-bottom: 200px;
 }
+#hunter-react-container-2{
+  display: none;
+}
 h1{
   font-family: 'Dancing Script', cursive;
   font-family: 'Oleo Script';
