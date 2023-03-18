@@ -20,6 +20,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: inherit;
 
 
 }
@@ -43,7 +44,7 @@ h1{
   font-family: 'Dancing Script', cursive;
   font-family: 'Oleo Script';
   color: white;
-  font-size: 9rem;
+  font-size: 12rem;
   margin-top: 100px;
   margin-bottom: 0px;
   padding: 0px;
@@ -70,7 +71,7 @@ input{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-family: 'Montserrat', sans-serif;
   border: none;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 
 }
 input::placeholder{
@@ -103,7 +104,7 @@ h2{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 50px;
 }
