@@ -14,6 +14,8 @@
 
 body{
   background: url(space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: flex;
   align-items: center;
