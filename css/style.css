@@ -1,0 +1,133 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-size: 64.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: url(space.jpg);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+div{
+  width: 80%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.596);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  padding-bottom: 200px;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Oleo Script';
+  color: white;
+  font-size: 9rem;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding: 0px;
+  filter: drop-shadow(0 0 .4rem rgb(0,	3,	25	));
+
+}
+p{
+  margin: 0px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+input{
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  background: rgba(52, 18, 163, 0.553);
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  font-size: 1.5rem;
+
+}
+input::placeholder{
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: .4;
+}
+button{
+  background: rgb(255, 255, 255);
+  border: 0px;
+  padding: 15px;
+  border-radius: 20px;
+  color: rgb(0,	3,	25	);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oleo Script';
+  font-size: 2rem;
+}
+button:hover{
+  background: rgb(5	71	138	);
+}
+h2{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width:800px) {
+  h1{
+    font-size: 8rem;
+  }
+  
+}
+@media screen and (max-device-width:800px) {
+  h1{
+    font-size: 8rem;
+  }
+  
+}
+
+@media screen and (max-width:370px) {
+  h1{
+    font-size: 8rem;
+  }
+  
+}
+
+@media screen and (max-device-width:370px) {
+  h1{
+    font-size: 8rem;
+  }
+}
