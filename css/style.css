@@ -23,7 +23,7 @@ body{
 
 
 }
-div{
+div.sheer{
   width: 80%;
   height: 900px;
   display: flex;
@@ -36,7 +36,7 @@ div{
   background-size: 100%;
   padding-bottom: 200px;
 }
-#hunter-react-container-2{
+div#hunter-react-container-2{
   display: none;
 }
 h1{
