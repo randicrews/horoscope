@@ -20,13 +20,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1200px;
+  height: 2000px;
 
 
 }
 div.sheer{
   width: 80%;
-  height: 1000px;
+  height: 2000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,7 +79,7 @@ input::placeholder{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 
 }
 input[type=number]::-webkit-inner-spin-button, 
@@ -95,7 +95,7 @@ button{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Oleo Script';
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 button:hover{
   background: rgb(5	71	138	);
