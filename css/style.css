@@ -21,7 +21,10 @@ body{
   background-size: cover;
   display: flex;
   justify-content: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-family: 'Oleo Script', sans-serif;
+  font-family: 'Yanone Kaffeesatz';
+  font-family: 'Montserrat';
 }
 div.sheer{
   width: 80%;
@@ -52,7 +55,7 @@ input{
   margin: 20px;
   border-radius: 30px;
   padding: 20px;
-  background: rgba(52, 18, 163, 0.553);
+  background: rgba(16, 26, 65, 0.598);
   color: white;
   border: none;
   font-size: 2.5rem;
@@ -72,17 +75,12 @@ button{
   padding: 15px;
   border-radius: 20px;
   color: rgb(0,	3,	25	);
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Oleo Script';
   font-size: 2.5rem;
 }
 button:hover{
-  background: rgb(5	71	138	);
+  background: rgb(16	26	65	);
 }
 h2{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   text-align: center;
   padding: 50px;
