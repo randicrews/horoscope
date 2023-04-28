@@ -21,6 +21,7 @@ body{
   background-size: cover;
   display: flex;
   justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div.sheer{
   width: 80%;
@@ -31,7 +32,6 @@ div.sheer{
   padding-bottom: 200px;
 }
 h1{
-  font-family: 'Oleo Script';
   font-size: 12rem;
   margin-top: 100px;
   margin-bottom: 0px;
@@ -54,16 +54,12 @@ input{
   padding: 20px;
   background: rgba(52, 18, 163, 0.553);
   color: white;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-family: 'Montserrat', sans-serif;
   border: none;
   font-size: 2.5rem;
 
 }
 input::placeholder{
   color: white;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
 
@@ -89,7 +85,6 @@ button:hover{
 h2{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  color: white;
   font-size: 2.5rem;
   text-align: center;
   padding: 50px;
@@ -110,14 +105,12 @@ h2{
   }
   
 }
-
 @media screen and (max-width:370px) {
   h1{
     font-size: 8rem;
   }
   
 }
-
 @media screen and (max-device-width:370px) {
   h1{
     font-size: 8rem;
